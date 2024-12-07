@@ -19,9 +19,9 @@ jobs:
           node-version: '16'
 
       - name: Install dependencies
-        working-directory: ./ # Asegúrate de que esta ruta sea correcta
+        working-directory: src/ # Asegúrate de que esta ruta sea correcta
         run: npm install
 
       - name: Run tests
-        working-directory: ./ # Asegúrate de que esta ruta sea correcta
+        working-directory: tests/ # Asegúrate de que esta ruta sea correcta
         run: npm test
