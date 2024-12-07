@@ -19,7 +19,6 @@ jobs:
           node-version: '16'
 
       - name: Install dependencies
-        working-directory: src
         run: npm install
 
       - name: Run tests
